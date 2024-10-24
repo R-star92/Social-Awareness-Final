@@ -1,0 +1,59 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    background-color: #d6e4ff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: black;
+}
+
+nav a:hover {
+    background-color: #b3ccff;
+}
+
+/* Logout Message Container */
+.logout-message-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 702px;
+    text-align: center;
+}
+
+.logout-message-container p {
+    font-size: 24px;
+    font-weight: bold;
+}

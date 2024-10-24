@@ -1,0 +1,92 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    background-color: #d6e4ff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: black;
+}
+
+nav a:hover {
+    background-color: #b3ccff;
+}
+
+/* Login Container */
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.login-logo {
+    width: 88px;
+    mix-blend-mode: multiply;
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #d6e4ff;
+    border-radius: 5px;
+    background-color: #d6e4ff;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #d6e4ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #b3ccff;
+}
+
+/* Login Links */
+.login-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.login-links span {
+    color: red;
+    cursor: pointer;
+}

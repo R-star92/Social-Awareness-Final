@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Social Awareness</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="campaign.html">Campaign</a>
+            <a href="login.html">Log in</a>
+        </nav>
+    </header>
+
+    <div class="signup-container">
+        <img src="logo.png" alt="Logo" class="signup-logo">
+        <form action="#" method="POST">
+            <input type="text" placeholder="First name" required>
+            <input type="text" placeholder="Last name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="password" placeholder="Password" required>
+            <input type="password" placeholder="Confirm Password" required>
+            <button type="submit" onclick="redirectToSuccess()">Sign Up</button>
+        </form>
+        <div class="signup-links">
+            <p>Already have an account? <a href="login.html">Login</a></p>
+        </div>
+    </div>
+
+    <script>
+        function redirectToSuccess() {
+            window.location.href = "signup-success.html";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Campaign - Social Awareness</title>
+    <link rel="stylesheet" href="create-campaign.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="campaign.html">Campaign</a>
+            <a href="about.html">About Us</a>
+            <a href="logout.html">Sign Out</a>
+        </nav>
+    </header>
+
+    <div class="campaign-form-container">
+        <img src="logo.png" alt="Logo" class="form-logo">
+        <form action="#" method="POST">
+            <input type="text" class="input-field" placeholder="Topic" required>
+            <textarea class="input-field" placeholder="Type your message" required></textarea>
+            <button type="submit" onclick="redirectToSuccess()" class="submit-button">Post</button>
+        </form>
+    </div>
+
+    <script>
+        function redirectToSuccess() {
+            window.location.href = "discussion.html";
+        }
+    </script>
+</body>
+</html>
